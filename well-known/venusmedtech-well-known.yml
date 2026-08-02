@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/* on the venusmedtech.com host
+host: https://www.venusmedtech.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Venus Medtech operates a corporate/product marketing site (plus an eIFU
+  portal for medical-device Instructions for Use). No .well-known discovery
+  surface is published. No WellKnown pointer is wired because nothing was found.
